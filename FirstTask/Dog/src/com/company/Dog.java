@@ -18,7 +18,7 @@ public class Dog {
     }
     public Dog()
     {
-        name = "No Name";
+        name = "Null";
         age = 0;
     }
     public void SetAge(int age)
@@ -43,7 +43,7 @@ public class Dog {
 
     public String toString()
     {
-        return "Name: " + this.name + "; Age: " + this.age;
+        return "Name: " + this.name + ". Age: " + this.age;
     }
 
 }

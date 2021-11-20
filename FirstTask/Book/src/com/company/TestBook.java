@@ -10,10 +10,10 @@ public class TestBook {
     }
 
     public static void main(String[] args) {
-        Book obj1 = new Book("Never", 2000);
-        Book obj2 = new Book("Ever");
-        Book obj3 = new Book(10);
-        obj2.SetPages(20);
+        Book obj1 = new Book("The Catcher in the Rye", 450);
+        Book obj2 = new Book("Harry Potter and the Chamber of Secrets");
+        Book obj3 = new Book(130);
+        obj2.SetPages(83);
         System.out.println(obj1);
         System.out.println(obj2);
         System.out.println(obj3);
