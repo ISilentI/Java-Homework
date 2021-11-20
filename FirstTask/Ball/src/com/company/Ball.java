@@ -23,24 +23,9 @@ public class Ball
         this.size = size;
     }
 
-    public void SetColor(String color)
-    {
-        this.color = color;
-    }
-
     public void SetSize(int size)
     {
         this.size = size;
-    }
-
-    public String GetColor()
-    {
-        return color;
-    }
-
-    public int GetSize()
-    {
-        return size;
     }
 
     public String toString()
