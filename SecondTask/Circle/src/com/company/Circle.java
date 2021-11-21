@@ -13,24 +13,11 @@ public class Circle {
                 l = (3.14 * R * n) / 180;
         }
 
-        public void Square(int R){
-                S = 3.14 * R * R;
-        }
-
-        public void Perimeter(int R){
-                P = 2 * 3.14 * R;
-        }
-
-
         public double GetCurve(){
                 return this.l;
         }
 
-        public double GetSquare(){
-                return this.S;
-        }
-
-        public double GetPerimeter(){
-                return P;
+        public String toString(){
+                return "l: " + this.l + "R: " + R;
         }
 }
