@@ -44,7 +44,7 @@ public class Book {
     }
 
     public String toString(){
-        return "Author: " + this.author + " Title: " + this.title +
-                " Date: " + this.date + " Pages: " + this.pages;
+        return "Author: |" + this.author + "| Title: |" + this.title +
+                "| Date: |" + this.date + "| Pages: |" + this.pages + "| ";
     }
 }
