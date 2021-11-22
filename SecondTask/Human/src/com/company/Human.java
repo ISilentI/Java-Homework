@@ -44,7 +44,7 @@ public class Human {
     }
 
     public String toString(){
-        return 
+        return  "Name: |" + this.name + "| Age: |" + this.age + "| Height: |" + this.height + "| Weight: |" + this.weight + "| ";
     }
 }
 
