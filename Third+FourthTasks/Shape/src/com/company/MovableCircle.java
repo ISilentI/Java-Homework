@@ -27,7 +27,7 @@ public class MovableCircle implements Movable {
     public void MoveLeft() {
         center.x -= center.xSpeed;
     }
-    
+
     @Override
     public void MoveRight() {
         center.x += center.xSpeed;
