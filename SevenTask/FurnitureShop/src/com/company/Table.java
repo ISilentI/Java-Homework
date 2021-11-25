@@ -36,7 +36,7 @@ public class Table extends Furniture{
 
     @Override
     public String toString() {
-        
+
         return super.toString() + "Table: -> Count of legs: |" + legsCount + "| Type of legs: |" + legsType +
                 "| Height: |" + height + "| <-";
     }
