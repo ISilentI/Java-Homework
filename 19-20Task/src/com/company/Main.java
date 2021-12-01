@@ -38,7 +38,7 @@ public class Main {
         boolean checker = arr.contains(find);
         long time2 = System.nanoTime();
 
-        System.out.println("Straight --> Elem " + (checker?" is found ":" is not found") + " <-- Spent time on it = " + (time2 - time1 + "ns"));
+        System.out.println("Straight --> Elem " + (checker?" is found ":" is not found") + " <-- Spent time on it = " + (time2 - time1 + ".ns"));
         time1 = System.nanoTime();
 
         int pos=Collections.binarySearch(arr,find,Collections.reverseOrder());
@@ -46,21 +46,21 @@ public class Main {
 
         if (pos >= 0){
 
-            System.out.println("Binary --> Elem is found <-- Spent time on it = " + (time2 - time1) + "ns");
+            System.out.println("Binary --> Elem is found <-- Spent time on it = " + (time2 - time1) + ".ns");
         }
         else {
 
-            System.out.println("Binary --> Elem is not found <-- Spent time on it = " + (time2 - time1) + "ns");
+            System.out.println("Binary --> Elem is not found <-- Spent time on it = " + (time2 - time1) + ".ns");
         }
 
         time1 = System.nanoTime();
         checker = HS.contains(find);
         time2 = System.nanoTime();
-        System.out.println("HashSet --> Elem " + (checker?" is found ":" is not found ") + " <-- Spent time on it " + (time2 - time1) + "ns");
+        System.out.println("HashSet --> Elem " + (checker?" is found ":" is not found ") + " <-- Spent time on it " + (time2 - time1) + ".ns");
 
         time1 = System.nanoTime();
         checker = ts.contains(find);
         time2 = System.nanoTime();
-        System.out.println("TreeSet --> Elem " + (checker?" is found ":" is not found ") + " <-- Spent time on it " + (time2 - time1) + "ns");
+        System.out.println("TreeSet --> Elem " + (checker?" is found ":" is not found ") + " <-- Spent time on it " + (time2 - time1) + ".ns");
     }
 }
