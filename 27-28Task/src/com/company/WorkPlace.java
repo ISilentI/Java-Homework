@@ -33,7 +33,9 @@ public class WorkPlace implements Runnable {
                 ImageIO.write(image, "jpg", newFile);
             }
         }
-        catch (Exception e) {e.printStackTrace();}
+        catch (Exception e) {
+            e.printStackTrace();
+        }
         System.out.println(Thread.currentThread().getName()+" Time: -> " + (System.currentTimeMillis() - start) + " <- ms");
     }
 
