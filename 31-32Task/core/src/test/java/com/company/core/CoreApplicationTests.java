@@ -13,8 +13,8 @@ class CoreApplicationTests {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CoreApplicationTests.class,args);
-
 	}
+	
 	@Bean
 	public RestTemplate restTemplate() {
 		return new RestTemplateBuilder().build();
